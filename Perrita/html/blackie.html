@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="..//css/blackie.css" />
+		<title>Rafex</title>
+        <link rel="shortcut icon" href="..//imagenes/aplicacion-de-tv (1).png">
+	</head>
+
+	<body>
+        <h3>
+		<div id="title">Juego de Cartas XXI</div>
+        </h3>
+		<div id="canvasDiv"><canvas id="canvas"></canvas></div>
+		<div id="botones">
+			<input type="button" value="Pedir Carta" onclick="pedirCarta()" id="pedir" class="button" >
+			<input type="button" value="Reiniciar juego" id="reset" onclick="playagain()" >
+			<input type="button" value="Parar juego" onclick="plantarme()" id="plantar" class="button" >
+		</div>
+		<div id="info"></div>
+		<script src="..//js/blackie.js"></script>
+	</body>
+</html>
